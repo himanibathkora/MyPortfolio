@@ -402,6 +402,12 @@ footer{
             height: 150px;
             width: 100%;
         }
+  #home{
+        padding-top: 300px;  ;
+       }
+  nav ul li{
+  line-height:30px;
+  }
        
 }
 @media screen and (max-width:467px){    
