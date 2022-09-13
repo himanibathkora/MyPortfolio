@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myportfolio</title>
+    <!-- ----favicon---- -->
+    <link rel="icon" href="./image/logo.png">
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- ----js file---- -->
+    <script src="./js/script.js"></script>
+</head>
+<body>    
+    <!---------------- code for sidebar -------------------->
+        <div class="header">
+            <div class="wrapper">
+                    <nav>
+                        <img src="./image/logo.png" id="img" class=" img-fluid" alt="" srcset="">
+                        <ul id="sidebar">
+                            <div class="title">
+                                <i class="fas fa-times " onclick="closemenu()" ></i>
+                                <img src="./image/mypic.jpg" class="img-fluid rounded-circle" id="image" alt="">
+                                <h5 class="text-white text-center ">Himani Bathkora</h5>
+                            </div>
+                            <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+                            <li><a href="#about"><i class="far fa-question-circle"></i>About</a></li>
+                            <li><a href="#education"><i class="far fa-file"></i>Education</a></li>
+                            <li><a href="#skills"><i class="fas fa-laptop"></i>Skills</a></li>
+                            <li><a href="#services"><i class="fas fa-sliders-h"></i>Services</a></li>
+                            <li><a href="#contact"><i class="far fa-envelope"></i>Contact</a></li>
+                        </ul> 
+                           <i class="fas fa-bars"onclick="openmenu()"  id="btn2"></i> 
+                        </nav>
+
+                    <div id="home" >
+               
+                        <h1 class="text1 "  >Himani Bathkora</h1>
+                        <p class="text2 ">I'm a <span>Web Designer</span> </p>
+        
+                        <div class="social-links">
+                            <a href="https://github.com/himanibathkora/webpage"  target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/himani-bathkora-17801823b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"  target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/himaani724/"  target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+          
+                    </div>          
+                </div> 
+               
+   </div>
+   <!------------code for about -------------->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <h1 class="heading">About</h1>
+            <div class="col-md-4 d-flex">
+                <img src="./image/mypic.jpg" class=" img-fluid img-thumbnail " alt="">
+            </div>
+            <div class="col-md-8">
+                <h4>Developer & Designer</h4>
+                <p>My name is Himani Bathkora. I'm a BCA student at Amrapali group of Institute.I'am capable of implementing new ideas suitable for the fast moving world.Seeking an entry-level programmer or coder position to continue expaanding my knowledge of different languages and system. Hobbies are dancing,traveling etc.</p> 
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li><i class="fas fa-angle-right"></i>Name:Himani Bathkora</li>
+                           <li><i class="fas fa-angle-right"></i>DOB:24/march/2004</li>
+                            <li><i class="fas fa-angle-right"></i>Degree:Bachelor's of computer appplication</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li><i class="fas fa-angle-right"></i>Phone:7900766718</li>
+                            <li><i class="fas fa-angle-right"></i>City:Haldwani</li>
+                            <li><i class="fas fa-angle-right"></i>Email:himanibathkora24@gmail
+                                .com</li>
+                        </ul>                
+                    </div>
+                </div> 
+                <button><a href="./image/Himani_Bathkora.pdf" download>Download CV</a></button>             
+            </div>
+        </div>
+    </div>
+  </div> 
+   <!------------------- code for education---------------------->
+   <div id="education">
+    <div class="container">
+        <div class=" row">
+            <h1 class="heading">EDUCATION</h1>
+            <div class="col-md-4 box">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="bx">                
+                <h4>Bacholer's of Computer Application<p>|2018</p></h4>
+                <ul>
+                    <li>Amrapali Group Of Institute.</li>
+                    <li>Secured 77.4(avg. till now) percentile in Examinations.</li>
+                </ul>     
+            </div>
+
+            </div>
+            <div class="col-md-4 box">
+                <i class="fas fa-book"></i>
+                <div class="bx">
+                <h4>Intermediate<p>|2020</p></h4>
+                <ul>
+                    <li>Heera Kunwar Senior Secondary School, Gaulapar, Haldwani.</li>
+                    <li>Secured 85.4 percentile in Class 10th.</li>
+                </ul> 
+            </div>
+            </div>
+            <div class="col-md-4 box">
+                <i class="fas fa-book"></i>
+                <div class="bx">
+                <h4>High School<p>|2018</p></h4>
+                <ul>
+                    <li>Vendy Senior Secondary School, Gaulapar, Haldwani.</li>
+                    <li>Secured 66.6 percentile in Class 12th.</li>
+                </ul>    
+            </div>
+            </div>
+        </div>
+    </div>
+   </div>
+ 
+  <!------------------- code for skill section---------------------->
+  <div id="skills">
+    <div class="container">
+        <h1 class="heading">Skills</h1>
+        <div class=" row">
+            <div class="col-md-6  my-2">
+                <h2>     C <span> 60%</span></h2>
+                <div class="progress" style="height: 10px; ">
+                    <div class="progress-bar" style="width: 60%;background-color:darkslateblue;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  my-2">
+                <h2>     C++ <span> 50%</span></h2>
+                <div class="progress" style="height: 10px; ">
+                    <div class="progress-bar" style="width: 50%;background-color:darkslateblue;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  my-2">
+                <h2>     PYTHON <span> 75%</span></h2>
+                <div class="progress" style="height: 10px; ">
+                    <div class="progress-bar" style="width: 75%;background-color:darkslateblue;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  my-2">
+                <h2>     SQL <span> 70%</span></h2>
+                <div class="progress" style="height: 10px; ">
+                    <div class="progress-bar" style="width: 70%;background-color:darkslateblue;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  my-2">
+                <h2>     HTML <span> 90%</span></h2>
+                <div class="progress" style="height: 10px; ">
+                    <div class="progress-bar" style="width: 90%;background-color:darkslateblue;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 my-2">
+                <h2>     CSS <span> 85%</span></h2>
+                <div class="progress" style="height: 10px; ">
+                    <div class="progress-bar" style="width: 85%;background-color:darkslateblue;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 my-2">
+                <h2>     JAVASCRIPT <span> 70%</span></h2>
+                <div class="progress" style="height: 10px; ">
+                    <div class="progress-bar" style="width: 70%;background-color:darkslateblue;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 my-2 ">
+                <h2>     BOOTSTRAP <span> 70%</span></h2>
+                <div class="progress" style="height: 10px; ">
+                    <div class="progress-bar" style="width: 70%;background-color:darkslateblue;">
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+  </div>
+  
+    <!--------------------code for Services section ------------------------>
+  <div id="services">
+    <div class="container ">
+        <h1 class="heading">Services</h1>
+        
+        
+        <div class="row">
+            <div class="col-md-6 text-center my-4">
+                <div class="box1">
+                    <i class="fas fa-desktop "></i>
+                    <h4>WEB DEVELOPER</h4>
+                </div>
+
+            </div>
+            <div class="col-md-6 text-center my-4 ">
+                <div class="box1">
+                    <i class="fas fa-paint-brush"></i>
+                    <h4>GRAPHIC DESIGNER</h4>
+            </div>
+            </div>
+        </div>
+            
+    
+        <div class="row">
+            <div class="col-md-6 text-center my-4">
+                <div class="box1">
+                    <i class="fas fa-keyboard "></i>
+                    <h4>PROGRAMMER</h4>
+                </div>
+            </div>
+            
+            <div class="col-md-6 text-center my-4 ">
+                <div class="box1">
+                    <i class="fas fa-check"></i>
+                    <h4>FEERLANCER</h4>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</div>
+      <!------------------- code for contact section---------------------->
+    <div id="contact">
+        <div class="container"> 
+                <h1 class="heading">CONTACT</h1>
+            <div class="row">
+                <div class="left col-md-6">
+                    <p>If you like to get in touch with me, for exploring a technology, a business, or to just say hello, feel free to contact me.</p>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>Nawarkhera,Gaulapar</li>
+                        <li><i class="fas fa-envelope"></i>himanibathkora24@gmail.com</li>
+                        <li><i class="fas fa-phone"></i>7900766718</li>
+                    </ul>  
+                </div>
+                <div class=" right col-md-6">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="5" placeholder="Message"></textarea>
+                        <button type="submit" >Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<footer><i class="far fa-copyright"></i>Copyright All rights reserved</footer>
+<!-- --------------------------------------------javascript---------------------------------------- -->
+<script>
+    var sidemenu = document.getElementById("sidebar");
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-320px";
+}
+const sidebar=document.getElementById("sidebar")
+sidebar.onclick=function(e){
+    if(e.target.id !=="sidebar"){
+        sidemenu.style.right="-320px";
+    }
+}
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwMmAw6mIyP-W2kmjO524x1TN1Mr3nTM0k9fg-Uja-7miTbGMF45ZDOOwvofrWs6leixQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            form.reset()
+            alert('Success!', response)})
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" ></script>
+
+</body>
+</html>
