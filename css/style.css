@@ -302,8 +302,8 @@ footer{
         background-color:#222;
         position: absolute;
         top: 0;
-        right: -420px;
-        width: 400px;
+        right: -3700px;
+        width: 350px;
         height: 100vh;
         padding-right: 90px;
         z-index: 2;
@@ -333,7 +333,7 @@ footer{
         width: 40px;
         text-align: center;
         line-height: 40px;
-        font-size:40px;
+        font-size:25px;
 /*         border: 2px solid black;
         background-color:#042331; */
     }
