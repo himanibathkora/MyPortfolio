@@ -387,9 +387,9 @@ footer{
     }
 }    
 @media screen and (max-width:667px){ 
-    #home{
+/*     #home{
         padding-top: 300px;
-    }   
+    }    */
         #home .text1{
             font-size: 50px; 
         }
