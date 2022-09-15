@@ -344,7 +344,8 @@ footer{
         font-size: 15px; 
         text-decoration: none;
         color: white;
-        transition: .4S;margin-left: 55px;
+        transition: .4S;
+        margin-left: 55px;
     }
     .title{
         display: flex;
@@ -387,7 +388,7 @@ footer{
 }    
 @media screen and (max-width:667px){ 
     #home{
-        padding-top: 300px;
+        padding-top: 400px;
     }   
         #home .text1{
             font-size: 50px; 
@@ -406,7 +407,7 @@ footer{
         padding-top: 300px;  ;
        }
   nav ul li{
-   line-height: 50px;
+   line-height: 80px;
   }
 }
 @media screen and (max-width:467px){    
