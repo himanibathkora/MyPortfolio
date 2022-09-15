@@ -387,7 +387,7 @@ footer{
 }    
 @media screen and (max-width:667px){ 
     #home{
-        padding-top: 250px;
+        padding-top: 300px;
     }   
         #home .text1{
             font-size: 50px; 
@@ -405,6 +405,9 @@ footer{
        #home{
         padding-top: 300px;  ;
        }
+  nav ul li{
+   line-height: 50px;
+  }
 }
 @media screen and (max-width:467px){    
 #home .text1{
